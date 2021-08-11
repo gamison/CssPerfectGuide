@@ -21,11 +21,6 @@ body {
 
 /* モジュール
 ========================================================================= */
-#main span {
-    color: #555;
-    font-size: 14px;
-}
-
 #main div.module.main-module {
     display: flex;
     align-items: center;
@@ -43,7 +38,6 @@ body {
     height: auto;
 }
 
-
 #main div.module.main-module div {
     flex: 1 1 68.33333%;
 }
@@ -59,4 +53,9 @@ body {
     margin-bottom: 10px;
     font-size: 16px;
     border-bottom: 1px solid #555;
+}
+
+#main .bl_module.main-module .body > span {
+    color: #555;
+    font-size: 14px;
 }
