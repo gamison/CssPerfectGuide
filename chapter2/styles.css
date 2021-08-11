@@ -1,0 +1,62 @@
+/* # サイト全体に適応されるべきスタイルはベースグループ
+# レイアウトに関するスタイルはレイアウトグループ
+# サイト内全体で使いまわしたいものはベースグループ */
+
+
+/* ベース
+========================================================================= */
+body {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* レイアウト
+========================================================================= */
+.ly_cont {
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* モジュール
+========================================================================= */
+#main span {
+    color: #555;
+    font-size: 14px;
+}
+
+#main div.module.main-module {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#main div.module.main-module figure {
+    flex: 1 1 25%;
+    margin-right: 3.33333%;
+}
+
+#main div.module.main-module div {
+    flex: 1 1 68.33333%;
+}
+
+#main div.module.main-module h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#main div.module.main-module h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
+}
