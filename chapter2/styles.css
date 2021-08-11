@@ -9,11 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 /* レイアウト
 ========================================================================= */
@@ -39,22 +34,27 @@ img {
     line-height: 1.5;
 }
 
-#main div.module.main-module figure {
+#main .module.main-module .imagae-wrapper { /* divを削除し、.image-wrapperを追加 */
     flex: 1 1 25%;
     margin-right: 3.33333%;
 }
 
-#main div.module.main-module div {
+#main .module.main-module .imagae-wrapper img { /* divを削除し、.image-wrapperを追加 */
+    max-width: 100%;
+    height: auto;
+}
+
+#main div.module.main-module .body { /* divを削除し、.bodyを追加 */
     flex: 1 1 68.33333%;
 }
 
-#main div.module.main-module h2 {
+#main div.module.main-module .title { /* divを削除し、.titleを追加 */
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
 }
 
-#main div.module.main-module h3 {
+#main div.module.main-module .sub-title { /* divを削除し、.sub-titleを追加 */
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
