@@ -9,12 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
 /* レイアウト
 ========================================================================= */
 .ly_cont {
@@ -43,6 +37,12 @@ img {
     flex: 1 1 25%;
     margin-right: 3.33333%;
 }
+
+#main div.module.main-module img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 #main div.module.main-module div {
     flex: 1 1 68.33333%;
