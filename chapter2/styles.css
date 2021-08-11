@@ -28,34 +28,34 @@ body {
     line-height: 1.5;
 }
 
-.bl_module .img-wrapper {
+.bl_module_imgWrapper {
     flex: 1 1 25%;
     margin-right: 3.33333%;
 }
 
-.bl_module .img-wrapper img {
+.bl_module_imgWrapper img {
     max-width: 100%;
     height: auto;
 }
 
-.bl_module .body {
+.bl_module_body {
     flex: 1 1 68.33333%;
 }
 
-.bl_module .title {
+.bl_module_title {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.bl_module .sub-title {
+.bl_module_body > span {
+    color: #555;
+    font-size: 14px;
+}
+
+.subTitle {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
     border-bottom: 1px solid #555;
-}
-
-.bl_module .body > span {
-    color: #555;
-    font-size: 14px;
 }
